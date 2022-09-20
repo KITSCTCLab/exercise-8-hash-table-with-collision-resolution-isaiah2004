@@ -71,8 +71,9 @@ class LinkedList:
 '''
 
 def display_hash(hashtable) -> None:
-	# Write your code here
-	ijo=1
+	for i in range(len(hashTable)):
+        print(str(i)+" -->  ", end='')
+        hashTable[i].status()
 
 def Hashing(keyvalue) -> int:
 	return keyvalue % len(HashTable)
