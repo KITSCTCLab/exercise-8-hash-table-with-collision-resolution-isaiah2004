@@ -56,16 +56,16 @@ class LinkedList:
             current = current.next
         #print(elements)
         for i in range (len(elements)):
-            print("'"+elements[i]+"'",end="")
+            print(""+elements[i]+"",end="")
             if(i<len(elements)-1):
                 print(" --> ", end="")
         print()
      
 
 def display_hash(hashtable) -> None:
-    for i in range(len(hashTable)):
+    for i in range(len(hashtable)):
         print(str(i)+" --> ", end="")
-        hashTable[i].status()
+        hashtable[i].status()
 
 def Hashing(keyvalue) -> int:
 	return keyvalue % len(HashTable)
