@@ -55,6 +55,7 @@ class LinkedList:
             elements.append(current.name)
             current = current.next
         #print(elements)
+        print(" --> ",end="")
         for i in range (len(elements)):
             print(""+elements[i]+"",end="")
             if(i<len(elements)-1):
@@ -63,7 +64,7 @@ class LinkedList:
 
 def display_hash(hashtable) -> None:
     for i in range(len(hashtable)):
-        print(str(i)+" --> ", end="")
+        print(str(i)+"", end="")
         hashtable[i].status()
         if(i<len(hashtable)-1):
             print("")
