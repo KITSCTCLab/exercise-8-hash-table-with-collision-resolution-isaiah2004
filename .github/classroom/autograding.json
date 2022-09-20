@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test Case 1",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "10\r\n[150, 'Tom'], [150, 'Jerry'], [130, 'Mickey'], [129, 'Donald'], [126, 'Ben'], [130, 'Scooby'].",
+      "output": "0 --> 'Tom' --> 'Jerry' --> 'Mickey' --> 'Scooby' \r\n1 \r\n2 \r\n3 \r\n4 \r\n5 \r\n6 --> 'Ben' \r\n7 \r\n8 \r\n9 --> 'Donald'",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 2",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "3\r\n[150, 'Tom'], [150, 'Jerry'], [130, 'Mickey'], [129, 'Donald'], [126, 'Ben'], [130, 'Scooby'].",
+      "output": "0 --> 'Tom' --> 'Jerry' --> 'Donald' --> 'Ben' \r\n1 --> 'Mickey' --> 'Scooby' \r\n2",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 3",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "10\r\n[80, 'John'], [79, 'Shiney'], [101, 'Jincy'], [91, 'Sunitha'], [95, 'Binu'], [122, 'Betty'], [123, 'Yogi'], [94, 'Motu'], [96, 'Patlu'], [97, 'Nicky'], [98, 'Ricky'], [99, 'Aidan'].",
+      "output": "0 --> 'John' \r\n1 --> 'Jincy' --> 'Sunitha' \r\n2 --> 'Betty' \r\n3 --> 'Yogi' \r\n4 --> 'Motu' \r\n5 --> 'Binu' \r\n6 --> 'Patlu' \r\n7 --> 'Nicky' \r\n8 --> 'Ricky' \r\n9 --> 'Shiney' --> 'Aidan'",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 41",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "5\r\n[80, 'John'], [79, 'Shiney'], [101, 'Jincy'], [91, 'Sunitha'], [95, 'Binu'], [122, 'Betty'], [123, 'Yogi'], [94, 'Motu'], [96, 'Patlu'], [97, 'Nicky'], [98, 'Ricky'], [99, 'Aidan'].",
+      "output": "0 --> 'John' --> 'Binu' \r\n1 --> 'Jincy' --> 'Sunitha' --> 'Patlu' \r\n2 --> 'Betty' --> 'Nicky' \r\n3 --> 'Yogi' --> 'Ricky' \r\n4 --> 'Shiney' --> 'Motu' --> 'Aidan'",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 5",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "1\r\n[80, 'John'], [79, 'Shiney'], [101, 'Jincy'], [91, 'Sunitha'], [95, 'Binu'], [122, 'Betty'], [123, 'Yogi'], [94, 'Motu'], [96, 'Patlu'], [97, 'Nicky'], [98, 'Ricky'], [99, 'Aidan'].",
+      "output": "0 --> 'John' --> 'Shiney' --> 'Jincy' --> 'Sunitha' --> 'Binu' --> 'Betty' --> 'Yogi' --> 'Motu' --> 'Patlu' --> 'Nicky' --> 'Ricky' --> 'Aidan'",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 6",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "4\r\n[123, 'John'], [94, 'Shiney'], [104, 'Jincy'], [107, 'Sunitha'], [97, 'Binu'], [127, 'Betty'], [80, 'Charlie'], [79, 'Daffy'], [101, 'Dennis'], [91, 'Garfield'], [95, 'Olive'], [122, 'Popeye'].",
+      "output": "0 --> 'Jincy' --> 'Charlie' \r\n1 --> 'Binu' --> 'Dennis' \r\n2 --> 'Shiney' --> 'Popeye' \r\n3 --> 'John' --> 'Sunitha' --> 'Betty' --> 'Daffy' --> 'Garfield' --> 'Olive'",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 7",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "5\r\n[123, 'John'], [94, 'Shiney'], [104, 'Jincy'], [107, 'Sunitha'], [97, 'Binu'], [127, 'Betty'], [80, 'Charlie'], [79, 'Daffy'], [101, 'Dennis'], [91, 'Garfield'], [95, 'Olive'], [122, 'Popeye'].",
+      "output": "0 --> 'Charlie' --> 'Olive' \r\n1 --> 'Dennis' --> 'Garfield' \r\n2 --> 'Sunitha' --> 'Binu' --> 'Betty' --> 'Popeye' \r\n3 --> 'John' \r\n4 --> 'Shiney' --> 'Jincy' --> 'Daffy'",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 8",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "2\r\n[70, 'John'], [72, 'Smith'], [90, 'Simpsons'], [91, 'Ninja'].",
+      "output": "0 --> 'John' --> 'Smith' --> 'Simpsons' \r\n1 --> 'Ninja'",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 9",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "5\r\n[70, 'John'], [72, 'Smith'], [90, 'Simpsons'], [91, 'Ninja'].",
+      "output": "0 --> 'John' --> 'Simpsons' \r\n1 --> 'Ninja' \r\n2 --> 'Smith' \r\n3 \r\n4",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test Case 10",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "10\r\n[70, 'John'], [72, 'Smith'], [90, 'Simpsons'], [91, 'Ninja'].",
+      "output": "0 --> 'John' --> 'Simpsons' \r\n1 --> 'Ninja' \r\n2 --> 'Smith' \r\n3 \r\n4 \r\n5 \r\n6 \r\n7 \r\n8 \r\n9",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    }
+  ]
+}
