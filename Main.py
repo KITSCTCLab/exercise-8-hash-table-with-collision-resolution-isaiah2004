@@ -55,8 +55,10 @@ class LinkedList:
             elements.append(current.name)
             current = current.next
         #print(elements)
-        print(" --> ",end="")
+        
         for i in range (len(elements)):
+            if(elements[0]!=[]):
+                print(" --> ",end="")
             print(""+elements[i]+"",end="")
             if(i<len(elements)-1):
                 print(" --> ", end="")
