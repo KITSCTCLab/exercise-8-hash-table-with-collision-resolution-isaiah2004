@@ -59,13 +59,14 @@ class LinkedList:
             print(""+elements[i]+"",end="")
             if(i<len(elements)-1):
                 print(" --> ", end="")
-        print()
      
 
 def display_hash(hashtable) -> None:
     for i in range(len(hashtable)):
         print(str(i)+" --> ", end="")
         hashtable[i].status()
+        if(i<len(hashtable)-1):
+            print("")
 
 def Hashing(keyvalue) -> int:
 	return keyvalue % len(HashTable)
