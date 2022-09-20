@@ -63,7 +63,7 @@ class LinkedList:
      
 
 def display_hash(hashtable) -> None:
-	for i in range(len(hashTable)):
+    for i in range(len(hashTable)):
         print(str(i)+" --> ", end="")
         hashTable[i].status()
 
