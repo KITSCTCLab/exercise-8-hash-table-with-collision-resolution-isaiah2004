@@ -60,19 +60,11 @@ class LinkedList:
             if(i<len(elements)-1):
                 print(" --> ", end="")
         print()
-        
-'''class HashHead:
-
-    def __init__(self, next=None):
-        """
-        Initializes the hash with the given as head pointer
-        """
-        self.next = next
-'''
+     
 
 def display_hash(hashtable) -> None:
 	for i in range(len(hashTable)):
-        print(str(i)+" -->  ", end='')
+        print(str(i)+" --> ", end="")
         hashTable[i].status()
 
 def Hashing(keyvalue) -> int:
